@@ -159,14 +159,23 @@ p {
 }
 
 .deleteBut {
-  width: 18px;
-  height: 18px;
-  background-color: #f05d5e;
-  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 33px;
+  content: url("https://api.iconify.design/ion/trash-outline.svg?width=20?height=20?color=black");
+  background-color: white;
   border: 0;
 }
 
 .deleteBut:hover {
-  background-color: #a03737;
+  content: url("https://api.iconify.design/ion/trash-outline.svg?color=rgb(236,93,93)");
 }
 /*# sourceMappingURL=styles.css.map */

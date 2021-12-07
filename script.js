@@ -22,6 +22,7 @@
 
 document.querySelector("#fname").addEventListener("keyup", function(event) {
   if (event.key === "Enter") {
+    // document.querySelector(".subText").submit();
     addNote();
     // const usersInput = document.querySelector("#fname");
   }

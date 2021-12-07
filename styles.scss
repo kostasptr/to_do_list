@@ -87,7 +87,6 @@
   flex-direction:row;
   align-items:center;
   justify-content:space-between;
-  // width: fit-content;
   min-width:400px;
   min-height: 40px;
   height:fit-content;
@@ -112,13 +111,17 @@
 }
 
 .deleteBut{
-  width: 18px;
-  height: 18px;
-  background-color:#f05d5e;
-  margin-right:10px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  width: 35px;
+  height: 33px;
+  content: url('https://api.iconify.design/ion/trash-outline.svg?width=20?height=20?color=black');
+  background-color:white;
+  // margin-right:10px;
   border:0;
 }
 
 .deleteBut:hover{
-  background-color:#a03737;
+  content: url('https://api.iconify.design/ion/trash-outline.svg?color=rgb(236,93,93)');
 }
