@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f05d5e), to(#0f7173));
+  background-image: linear-gradient(to right, #f05d5e, #0f7173);
+  overflow-x: hidden;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 8vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toDo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.ionicon {
+  display: inline;
+  width: 33px;
+  height: 33px;
+  color: white;
+}
+
+.toDoText {
+  display: inline;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.inputText {
+  width: 116px;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f05d5e;
+  border: 1px solid white;
+  padding: 1px;
+  background-color: white;
+}
+
+.inputText:focus-visible {
+  outline: 1px;
+  -webkit-box-shadow: 0 0 15px #f05d5e;
+          box-shadow: 0 0 15px #f05d5e;
+}
+
+.subText {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: white;
+  background-color: #f05d5e;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.subText:hover {
+  background-color: #cc4848;
+}
+
+.subText:active {
+  background-color: #ffffff;
+  color: #cc4848;
+}
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.test > div {
+  margin-bottom: 15px;
+}
+
+.notesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 400px;
+  min-height: 40px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  -webkit-box-shadow: 0 0 15px #f05d5e;
+          box-shadow: 0 0 15px #f05d5e;
+  border-radius: 5px;
+  color: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.notesInput {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: black;
+  margin-left: 10px;
+  overflow-wrap: break-word;
+}
+
+.deleteBut {
+  width: 18px;
+  height: 18px;
+  background-color: #f05d5e;
+  margin-right: 10px;
+  border: 0;
+}
+
+.deleteBut:hover {
+  background-color: #a03737;
+}
+/*# sourceMappingURL=styles.css.map */

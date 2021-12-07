@@ -1,0 +1,124 @@
+@import './reset.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toDo{
+  display: flex;
+  align-items:center;
+  cursor:pointer;
+}
+
+.ionicon {
+  display:inline;
+  width: 33px;
+  height: 33px;
+  color:white;
+}
+
+.toDoText {
+  display:inline;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.inputText{
+  width:116px;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f05d5e;
+  border: 1px solid white; 
+  padding:1px;
+  background-color:white;
+}
+
+.inputText:focus-visible{
+  outline: 1px;
+  box-shadow: 0 0 15px #f05d5e;
+}
+
+.subText{
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: white;
+  background-color: #f05d5e;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.subText:hover{
+  background-color: #cc4848;
+}
+
+.subText:active{
+  background-color: #ffffff;
+  color:  #cc4848;
+}
+
+.test{
+  display:flex;
+  flex-direction:column;
+}
+
+.test > div{
+  margin-bottom:15px;
+}
+
+.notesList{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  // width: fit-content;
+  min-width:400px;
+  min-height: 40px;
+  height:fit-content;
+  background-color:white;
+  box-shadow: 0 0 15px #f05d5e;
+  border-radius:5px;
+  color: black;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.notesInput{
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: black;
+  margin-left:10px;
+  overflow-wrap: break-word;
+}
+
+.deleteBut{
+  width: 18px;
+  height: 18px;
+  background-color:#f05d5e;
+  margin-right:10px;
+  border:0;
+}
+
+.deleteBut:hover{
+  background-color:#a03737;
+}
